@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.input-container {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: #d5a8ab;
+}
+
+input {
+  padding: 10px;
+  width: 500px;
+  border: none;
+}
+
+#myButton {
+  padding: 5px;
+  width: 150px;
+  cursor: pointer;
+  border: none;
+}
+
+.listItem {
+  display: flex;
+  background-color: #f1f1f1;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  border-bottom: 1px solid rgb(222, 219, 219);
+}
+
+.listItem:hover {
+  background-color: rgb(222, 219, 219);
+}
+
+.item {
+  margin-left: 50px;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.closeButton {
+  width: 50px;
+  border-style: none;
+  cursor: pointer;
+  background: none;
+  padding: 8px;
+}
+
+.closeButton:hover {
+  background-color: #d5a8ab;
+  color: white;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: rgb(54, 51, 51);
+}
+
